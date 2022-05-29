@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
-void main()
+#include <unistd.h>
+int main()
 {
     // int n;
     // scanf("%d", &n);
@@ -19,7 +19,7 @@ void main()
                 printf(" ");
             }
             printf("*");
-            Sleep(30);
+            sleep(30);
             system("cls");
         }
         for (int i = 162; i > 0; i--)
@@ -30,9 +30,10 @@ void main()
                 printf(" ");
             }
             printf("*");
-            Sleep(30);
+            sleep(30);
             system("cls");
         }
         // printf("\n");
     }
+    return 0;
 }

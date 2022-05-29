@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <conio.h>
+//#include <conio.h>
 #include <iostream>
 #include <time.h>
-#include <windows.h>
+#include <unistd.h>
 void gotoxy(int x, int y)
 {
     COORD coord;
